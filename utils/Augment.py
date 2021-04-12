@@ -7,17 +7,6 @@ from matplotlib import pyplot
 from keras.preprocessing.image import ImageDataGenerator
 from keras import backend as K
 
-# load dataset into train and test sets
-(trainX, trainy), (testX, testy) = cifar10.load_data()
-
-# show shape of loaded dataset
-print('Train: X=%s, y=%s' % (trainX.shape, trainy.shape))
-print('Test: X=%s, y=%s' % (testX.shape, testy.shape))
-
-trainX = trainX.astype('float32')
-testX = testX.astype('float32')
-trainX/=255
-testX/=255
 
 def augment_data( trainX, trainy, p=0.25, batch_size=32):
   num_choices = int(p*trainX.shape[0])
