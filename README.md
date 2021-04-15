@@ -15,3 +15,4 @@ Add this dataset under your ./MyDrive/ folder. Now running the first section giv
 To further determine the code efficacy we have deployed a method to calculate metrics like FID and KID onto these 3000 images in each class and then we have plotted this data onto a bar chart. This gives us a rough idea that obtained range of FID as well as KID is well within the good range and hence the pretrained-network was able to generate almost real-like images for most classes.
 
 ![Alt text](./fids.jfif?raw=true "FID Comparison")
+![Alt text](./kids.jfif?raw=true "KID Comparison")
