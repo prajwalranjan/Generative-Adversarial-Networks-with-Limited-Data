@@ -9,8 +9,7 @@ Since training GANs with limited data leads to overfitting and collecting large 
 
 
 ### StyleGan2-ada.ipynb ###
-This notebook contins the whole code that was used to generate the required results. Firstly it mounts the google drive onto your colab/jupyter. You will need to have the cifar-10 tar file downloaded from the official site (also available in current directory) to compile the code further.
-Add this dataset under your ./MyDrive/ folder. Now running the first section gives us 30k generated images (here we have chosen 3000 images for each class). You can see these 32x32 images are very close to the class they are associated with.
+This notebook contins the whole code that was used to generate the required results. Firstly it mounts the google drive onto your colab/jupyter. And downloads the cifar-10 dataset on your Gdrive. Now running the first section gives us 30k generated images (here we have chosen 3000 images for each class). You can see these 32x32 images are very close to the class they are associated with.
 
 To further determine the code efficacy we have deployed a method to calculate metrics like FID and KID onto these 3000 images in each class and then we have plotted this data onto a bar chart. This gives us a rough idea that obtained range of FID as well as KID is well within the good range and hence the pretrained-network was able to generate almost real-like images for most classes.
 
