@@ -1,6 +1,6 @@
 # Training Generative Adversarial Networks with Limited Data #
 
-This implementation follows the official Nvidia research paper on training GANs with limited data, applied on the CIFAR-10 Dataset.
+This implementation follows the official NVIDIA research paper on training GANs with limited data, applied on the CIFAR-10 Dataset.
 
 Since training GANs with limited data leads to overfitting and collecting large amounts of data (of order 1-10 million) is an extremely difficult task. With the help of the methods proposed in this paper, we can train GANs using as few as a thousand images.
 
